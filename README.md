@@ -4,6 +4,8 @@ Reference: https://www.promptfoo.dev/docs/installation/
 
 Người Việt bay mà không cần cánh: GiaBinh 
 
+Hosting on Ubuntu 22.04
+
 ## 1.	Initial Configuration
 ### 1. Prepare
 - Create new user:
@@ -200,7 +202,7 @@ async function loginOnceAndSaveState(browser) {
 
   await waitForChatReady(page, TIMEOUT_MS);
 
-  // ✅ wait 10s after login (your requirement)
+  // wait 10s after login
   await page.waitForTimeout(POST_LOGIN_WAIT_MS);
 
   await context.storageState({ path: STORAGE_STATE_PATH });
