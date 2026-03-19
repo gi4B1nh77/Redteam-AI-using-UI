@@ -49,7 +49,7 @@ npx playwright install chromium
 ~~~bash
 
 /**
- * Promptfoo UI provider for Genie Healthcare Agent (Playwright)
+ * Promptfoo UI provider AI Agent (Playwright)
  * Robust approach:
  * - Login once (storageState.json)
  * - For each prompt:
@@ -84,7 +84,7 @@ const POST_LOGIN_WAIT_MS = 15000;
 
 const STORAGE_STATE_PATH = path.join(process.cwd(), "storageState.json");
 
-// ===================== SELECTORS (based on your screenshot) =====================
+// ===================== SELECTORS =====================
 const SEL = {
   // Microsoft SSO
   email: "input#i0116",
