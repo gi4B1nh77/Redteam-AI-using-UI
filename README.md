@@ -43,7 +43,6 @@ npx playwright install chromium
 ~~~
 - Create a .js file, in my project it will be named healthcare-ui.js in the folder providers, I named providers because it will act as the provider but use differnet method to approach the chatbox:
 <img width="905" height="131" alt="image" src="https://github.com/user-attachments/assets/98505994-da92-4795-bbda-4afda2d1e752" />
-healthcare-ui.js:
 
 ~~~bash
 
