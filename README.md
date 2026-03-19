@@ -424,8 +424,11 @@ npx promptfoo@latest init
 ~~~
 After init the set up, it will create promptfooconfig.yaml (this file will act as the examiner) automatically
 - Choose redteam:
+
 <img width="725" height="309" alt="image" src="https://github.com/user-attachments/assets/f423358c-afc8-42a7-9170-cf4fe5b2d727" />
+
 - Name it and choose the type of endpoint:
+
 <img width="975" height="273" alt="image" src="https://github.com/user-attachments/assets/35cac293-e5af-4628-b640-8e4203dfe129" />
 - Write a pompt that describe the application which server for what purpose, in my case I will redteam an AI chatbox related to Heatlh Care:
 
