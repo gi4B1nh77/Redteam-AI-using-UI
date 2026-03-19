@@ -536,7 +536,9 @@ npx promptfoo@latest view http://localhost:15500
 <img width="975" height="374" alt="image" src="https://github.com/user-attachments/assets/b3697ce1-955e-49d0-8ada-1eac255e6f18" />
 
 Note: To use full function, we need to forward to our host
-Run this on our host(window or the device that remote to the Promptfoo):
+
+Run this on your host(window or the device that remote to the Promptfoo):
+
 ~~~bash
 ssh -L 15501:127.0.0.1:15500 pentester@172.16.24.42
 ~~~
