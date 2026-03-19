@@ -3,7 +3,7 @@ An end-to-end security evaluation framework that simulates real-world adversary 
 
 Reference: https://www.promptfoo.dev/docs/installation/
 
-###1.	Initial Configuration
+### 1.	Initial Configuration
 - Create new user:
 ~~~bash
 sudo adduser pentester
